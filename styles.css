@@ -1,0 +1,22 @@
+body {
+    background-color: grey;
+    color:whitesmoke;
+    margin-left: 865px;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: black;
+    text-align: left; 
+}
+
+img {
+    display: block;
+    margin: left;
+
+}
+/* margin to move dots and numbers i think */
+ol, ul, p {
+    text-align: left;
+    
+}
