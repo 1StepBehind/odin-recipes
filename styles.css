@@ -16,32 +16,61 @@ body {
     
     
 }
+/* header elements */
 
-img {
-    display:flex;
-    /* justify-content: center; */
-    padding: 20px;
-    border: 4px solid yellow;
-    width: 300px;
-    height: 300px;
+/* .head-class {
     margin: auto;
-}
-
+} */
 
 h1 {
     color: black;
     /* padding: 30px 0 30px 0; */
     border: 2px solid red;
-    margin: auto;
-    /* display: flex; */
+    /* margin: auto; */
+    display: flex;
     /* width: 100%; */
-    /* justify-items: center; */
-    /* flex: 1 1 auto; */
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
     font-size: 50px;
     /* padding-left: 170px; */
     
     
 
+}
+
+.header {
+    border: solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px 0 15px;
+    background-color: grey;
+    flex-wrap: wrap;
+    
+
+}
+
+.user {
+    display: flex;
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+    border: solid red;
+    flex: 0 1 353px;
+    /* justify-content: flex-start; */
+    flex-wrap: wrap;
+    
+}
+
+.user-links {
+    border: solid red;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex: 0 1 auto;
+    gap: 20px;
+  
 }
 
 main {
@@ -53,8 +82,23 @@ main {
     border: 5px solid yellow;
     
     
+/* .head-class {
+    margin: auto;
+} */
 
+}
 
+/* end of header elements */
+
+img {
+    display:flex;
+    /* justify-content: center; */
+    padding: 20px;
+    border: 4px solid yellow;
+    width: 300px;
+    height: 300px;
+    /* justify-self: center; */
+    margin: auto;
 }
 
  .list-recipes { 
@@ -66,6 +110,7 @@ main {
     margin-block: 20px;
     padding-top: 4px;
     padding-bottom:4px;
+    padding-left: 15px;
     /* width:100%; */
     /* height: 100%; */
     display: flex;
@@ -91,41 +136,13 @@ a {
     /* position: relative; */
     padding: 0;
     margin: 0;
-    width:100px;
+    /* width:100px; */
     
 }
 
-.header {
-    border: solid black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 15px 0 15px;
-    background-color: grey;
-    flex-wrap: wrap;
-    
 
-}
 
-.user {
-    font-size: 30px;
-    font-weight: 900;
-    color: black;
-    border: solid red;
-    flex: 0 1 auto;
-    /* justify-items: start; */
-    
-}
 
-.user-links {
-    border: solid red;
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    flex: 0 1 auto;
-    gap: 20px;
-  
-}
 
 ul {
     color: black;
@@ -133,14 +150,36 @@ ul {
     
 }
 
+/* footer elements */
 footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 0;
     padding: 0 15px 0 15px;
     background-color: grey;
     align-items: center;
 }
+
+.footer-2 {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-1 {
+    display: flex;
+    flex: 0 1 116px;
+}
+
+.footer-3 {
+    display: flex;
+    flex: 0 1 auto;
+}
+
+
+
 
 
 
